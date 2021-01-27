@@ -4,6 +4,13 @@
 	<title>User Registration</title>
 </head>
 <body>
+	<div>
+		<?php
+		if(isset($_POST['create'])){
+			echo'User submitted';
+		}
+		?>
+	</div>
 
 	<div>
 		<form action="registration.php" method="post">
